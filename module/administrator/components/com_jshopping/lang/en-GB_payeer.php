@@ -1,0 +1,33 @@
+<?php
+define('_JSHOP_PAYEER_MERCHANT_URL', 'Merchant URL');
+define('_JSHOP_PAYEER_MERCHANT_URL_DESCR', 'URL for the payment');
+define('_JSHOP_PAYEER_MERCHANT_ID', 'ID store');
+define('_JSHOP_PAYEER_MERCHANT_ID_DESCR', 'Store identifier registered in Payeer');
+define('_JSHOP_PAYEER_SECRET_KEY', 'Secret key');
+define('_JSHOP_PAYEER_SECRET_KEY_DESCR', 'Secret key of merchant');
+define('_JSHOP_PAYEER_LOG_FILE', 'Path to the log file');
+define('_JSHOP_PAYEER_LOG_FILE_DESCR', 'Path to the log file for payments via Payeer (for example, /payeer_orders.log)');
+define('_JSHOP_PAYEER_IP_FILTER', 'IP - filter');
+define('_JSHOP_PAYEER_IP_FILTER_DESCR', 'List of trusted IP addresses, you can specify the mask');
+define('_JSHOP_PAYEER_EMAIL_ERR', 'Email for errors');
+define('_JSHOP_PAYEER_EMAIL_ERR_DESCR', 'Email to send payment errors');
+define('_JSHOP_PAYEER_TRANSACTION_PENDING_DESCR', 'Status of the new order, when paying via Payeer');
+define('_JSHOP_PAYEER_TRANSACTION_SUCCESS_DESCR', 'Status of a successful order, if you pay via Payeer');
+define('_JSHOP_PAYEER_TRANSACTION_FAILED_DESCR', 'Status of the failure order, when paying via Payeer');
+define('_JSHOP_PAYEER_SUCCESS_URL', 'Success URL');
+define('_JSHOP_PAYEER_SUCCESS_URL_DESCR', 'URL to which you want to send the customer after successful payment via Payeer');
+define('_JSHOP_PAYEER_FAIL_URL', 'Fail URL');
+define('_JSHOP_PAYEER_FAIL_URL_DESCR', 'URL to which you want to send the customer after unsuccessful payment through Payeer');
+define('_JSHOP_PAYEER_STATUS_URL', 'Status URL');
+define('_JSHOP_PAYEER_STATUS_URL_DESCR', 'URL to confirm and verify the order, for successful crediting of funds if you pay via Payeer');
+define('_JSHOP_PAYEER_MSG_NOT_VALID_IP', ' - the ip address of the server is not trusted');
+define('_JSHOP_PAYEER_MSG_VALID_IP', '   trusted ip: ');
+define('_JSHOP_PAYEER_MSG_THIS_IP', '   ip of the current server: ');
+define('_JSHOP_PAYEER_MSG_HASHES_NOT_EQUAL', ' - do not match the digital signature');
+define('_JSHOP_PAYEER_MSG_WRONG_ORDER_PAYEED', ' - order already paid');
+define('_JSHOP_PAYEER_MSG_WRONG_AMOUNT', ' - wrong amount');
+define('_JSHOP_PAYEER_MSG_WRONG_CURRENCY', ' - wrong currency');
+define('_JSHOP_PAYEER_MSG_STATUS_FAIL', ' - the payment status is not success');
+define('_JSHOP_PAYEER_MSG_ERR_REASONS', 'Failed to make the payment through the system Payeer for the following reasons:');
+define('_JSHOP_PAYEER_MSG_SUBJECT', 'Error payment');
+?>
