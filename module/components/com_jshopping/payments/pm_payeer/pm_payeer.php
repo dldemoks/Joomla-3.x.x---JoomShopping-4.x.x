@@ -148,12 +148,6 @@ class pm_payeer extends PaymentRoot{
 				$err = true;
 			}
 
-			if ($order->order_status == $pmconfigs['transaction_end_status'])
-			{
-				$message .= _JSHOP_PAYEER_MSG_WRONG_ORDER_PAYEED . "\n";
-				$err = true;
-			}
-			
 			if (!$err)
 			{
 				$order_curr = strtoupper($order->currency_code_iso);
@@ -183,7 +177,15 @@ class pm_payeer extends PaymentRoot{
 						case 'success':
 							
 							echo $post['m_orderid'] . '|success';
-							return array(1, $post['m_orderid']);
+							
+							if ($order->order_status != $pmconfigs['transaction_end_status'])
+							{
+								return array(1, $post['m_orderid']);
+							}
+							else
+							{
+								return false;
+							}
 							
 							break;
 							

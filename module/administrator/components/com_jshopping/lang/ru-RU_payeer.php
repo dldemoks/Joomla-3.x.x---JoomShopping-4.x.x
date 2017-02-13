@@ -24,7 +24,6 @@ define('_JSHOP_PAYEER_MSG_NOT_VALID_IP', ' - IP сервера уведомле�
 define('_JSHOP_PAYEER_MSG_VALID_IP', '   доверенные IP: ');
 define('_JSHOP_PAYEER_MSG_THIS_IP', '   IP текущего сервера: ');
 define('_JSHOP_PAYEER_MSG_HASHES_NOT_EQUAL', ' - не совпадают цифровые подписи');
-define('_JSHOP_PAYEER_MSG_WRONG_ORDER_PAYEED', ' - заказ уже оплачен');
 define('_JSHOP_PAYEER_MSG_WRONG_AMOUNT', ' - неправильная сумма');
 define('_JSHOP_PAYEER_MSG_WRONG_CURRENCY', ' - неправильная валюта');
 define('_JSHOP_PAYEER_MSG_STATUS_FAIL', ' - статус платежа не является success');

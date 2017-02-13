@@ -24,7 +24,6 @@ define('_JSHOP_PAYEER_MSG_NOT_VALID_IP', ' - the ip address of the server is not
 define('_JSHOP_PAYEER_MSG_VALID_IP', '   trusted ip: ');
 define('_JSHOP_PAYEER_MSG_THIS_IP', '   ip of the current server: ');
 define('_JSHOP_PAYEER_MSG_HASHES_NOT_EQUAL', ' - do not match the digital signature');
-define('_JSHOP_PAYEER_MSG_WRONG_ORDER_PAYEED', ' - order already paid');
 define('_JSHOP_PAYEER_MSG_WRONG_AMOUNT', ' - wrong amount');
 define('_JSHOP_PAYEER_MSG_WRONG_CURRENCY', ' - wrong currency');
 define('_JSHOP_PAYEER_MSG_STATUS_FAIL', ' - the payment status is not success');
